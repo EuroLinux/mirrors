@@ -16,7 +16,7 @@
 
 ## Deploying
 
-1. Clone GitHub repo `https://github.com/AlmaLinux/mirrors.git`
+1. Clone GitHub repo `https://github.com/EuroLinux/mirrors.git`
 2. Switch to branch `mirrors_service`
 3. Go to project directory `ci/ansible/inventory`
 4. Copy template inventory `template` to a new file

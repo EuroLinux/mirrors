@@ -45,7 +45,7 @@ HEADERS = {
 }
 # the list of mirrors which should be always available
 WHITELIST_MIRRORS = (
-    'repo.almalinux.org',
+    'fbi.cdn.euro-linux.com',
 )
 NUMBER_OF_PROCESSES_FOR_MIRRORS_CHECK = 15
 AIOHTTP_TIMEOUT = 30

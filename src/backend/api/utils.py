@@ -308,7 +308,7 @@ async def get_coords_by_city(
     try:
         async with sem:
             async with geopy.geocoders.Nominatim(
-                user_agent="mirrors.almalinux.org",
+                user_agent="mirrors.euro-linux.com",
                 domain='nominatim.openstreetmap.org',
                 adapter_factory=AioHTTPAdapter,
             ) as geo:

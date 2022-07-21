@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "almalinux/8"
+  config.vm.box = "eurolinux-vagrant/eurolinux-8"
   config.ssh.forward_agent = true
   config.ssh.forward_x11 = true
   config.vm.provider "libvirt" do |libvirt|
@@ -16,12 +16,12 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "mirrors-service" do |i|
-    i.vm.hostname = "alma-8-mirrors-service"
+    i.vm.hostname = "el-8-mirrors-service"
     i.vm.network "private_network", ip: "10.0.0.10"
   end
 
-  config.vm.define "mirror1" do |i|
-    i.vm.hostname = "alma-8-mirror-1"
+  config.vm.define "fake-mirror" do |i|
+    i.vm.hostname = "el-8-fake-mirror"
     i.vm.network "private_network", ip: "10.0.0.11"
   end
 

@@ -128,7 +128,7 @@ async def isos(
         version: str = None,
 ):
     data = {
-        'main_title': 'AlmaLinux ISOs links'
+        'main_title': 'EuroLinux ISOs links'
     }
     config = get_config(
         logger=logger,
@@ -182,7 +182,7 @@ async def mirrors_table():
         ],
         'url_types': url_types,
         'mirror_list': await get_all_mirrors(),
-        'main_title': 'AlmaLinux Mirrors',
+        'main_title': 'EuroLinux Mirrors',
     }
     return render_template('mirrors.html', **data)
 

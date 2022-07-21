@@ -193,7 +193,7 @@ def create_parser():
         '--container-name',
         help='Name of docker container for getting statistics',
         action='store',
-        default='alma-mirrors'
+        default='el-mirrors'
     )
     stat_period = parser.add_mutually_exclusive_group(required=True)
     stat_period.add_argument(
