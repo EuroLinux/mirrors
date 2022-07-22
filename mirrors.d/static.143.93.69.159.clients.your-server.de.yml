@@ -1,0 +1,12 @@
+---
+name: http://static.143.93.69.159.clients.your-server.de
+address:
+  http: http://static.143.93.69.159.clients.your-server.de/
+geolocation:
+  country: Germany
+  city: Nuremberg
+update_frequency: 3h
+sponsor: EuroLinux Sp. z o. o.
+sponsor_url: https://euro-linux.com
+email: support@euro-linux.com
+...
