@@ -1,7 +1,7 @@
 ---
 name: http://static.143.93.69.159.clients.your-server.de
 address:
-  http: http://static.143.93.69.159.clients.your-server.de/
+  http: http://static.143.93.69.159.clients.your-server.de/eurolinux/
 geolocation:
   country: Germany
   city: Nuremberg
