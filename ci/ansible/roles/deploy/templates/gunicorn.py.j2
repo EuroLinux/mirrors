@@ -16,7 +16,7 @@ raw_env = [
     'DEPLOY_ENVIRONMENT={{ deploy_environment }}',
     'TEST_IP_ADDRESS={{ test_ip_address }}',
     'AUTH_KEY={{ auth_key }}',
-    'SENTRY_DISABLED={{ (deploy_environment is defined and deploy_environment in sentry_environments) | ternary('False', 'True') }}',
+    'SENTRY_DISABLED=True',
     'REDIS_SOCKET=/var/run/redis/redis.sock',
 ]
 accesslog = '-'

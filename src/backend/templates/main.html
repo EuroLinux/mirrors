@@ -4,8 +4,6 @@
     {{ super() }}
     <meta charset="UTF-8">
     <link rel="icon" type="image/ico" href="{{ url_for('static', filename='images/fav/favicon.ico') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/fav/favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/fav/favicon-16x16.png') }}">
 {% endblock metas%}
 
 {%- block styles %}
@@ -90,7 +88,7 @@
     <div class="footer fixed-bottom bg-white">
         <div class="container-fluid">
             <div class="row text-center">
-                <div class="col-lg-12">© {{ now.year }} AlmaLinux OS Foundation</div>
+                <div class="col-lg-12">© {{ now.year }} EuroLinux Sp. z o. o.</div>
             </div>
         </div>
     </div>

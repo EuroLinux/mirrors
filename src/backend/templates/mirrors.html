@@ -5,44 +5,14 @@
     Mirrors are extremely important to provide a fast and reliable infrastructure,
     and we are very grateful to people and organizations that are helping us with this.
     <br>
-    AlmaLinux would like to personally thank
-    <a href="https://www.hivelocity.net/"
-       target="_blank"
-       class="link-success text-decoration-none"
-    >HiVelocity</a> {% include "snipets/link_icon.html" %} for
-    their sponsorship of the AlmaLinux OS Foundation and sponsorship of our primary
-    rsync mirror and bandwidth. Please support those that support the community.
-    Check out
-    <a href="https://www.hivelocity.net/"
-       target="_blank"
-       class="link-success text-decoration-none"
-    >HiVelocity</a> {% include "snipets/link_icon.html" %} for all your dedicated server,
-    bare metal, colo, CDN and hosting needs.
-    <br>
 {% endblock text_1 %}
-{% block sponsor_link %}
-    <a href="https://www.hivelocity.net/"
-       target="_blank"
-       class="link-success text-decoration-none"
-    >
-        <img src="{{ url_for('static', filename='images/hivelocity.svg') }}"
-             alt="HiVelocity logo"
-             width="180"
-             height="67"
-             class="d-inline-block align-text-top">
-    </a>
-{% endblock sponsor_link %}
 {% block text_2 %}
 {{ super() }}
     This page contains a list of official
-    <a href="https://almalinux.org/"
+    <a href="https://euro-linux.com/"
        target="_blank"
-       class="link-success text-decoration-none">AlmaLinux</a> {% include "snipets/link_icon.html" %}
+       class="link-success text-decoration-none">EuroLinux</a> {% include "snipets/link_icon.html" %}
     mirrors.
-    If you want to set up a public mirror, please read
-    <a href="https://wiki.almalinux.org/Mirrors.html"
-       target="_blank"
-       class="link-success text-decoration-none">our mirror guidelines</a> {% include "snipets/link_icon.html" %}
     <br>
     You can find the list of links to ISOs for all of mirrors by
     <a href="{{ url_for('.isos') }}"
