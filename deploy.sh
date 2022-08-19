@@ -1,5 +1,5 @@
 #!/bin/bash
-# description: mirrors.almalinux.org content deployment tool.
+# description: EuroLinux content deployment tool.
 
 set -e
 
@@ -11,6 +11,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:AlmaLinux/mirrors.git master:gh-pages
+git push -f git@github.com:EuroLinux/mirrors.git master:gh-pages
 
 popd
