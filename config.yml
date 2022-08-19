@@ -4,7 +4,7 @@ mirrorlist_dir: docs/.vuepress/public/mirrorlist
 mirrors_dir: mirrors.d
 mirrors_table: docs/internal/mirrors.md
 versions_arches:
-  "8.6":
+  "8":
     - x86_64
     - aarch64
 versions:
@@ -34,19 +34,19 @@ repos:
   - name: powertools
     path: $basearch/PowerTools/os/
     versions:
-      - "8.6"
+      - "8"
   - name: crb
     path: $basearch/CRB/os/
     versions:
-      - "9.0"
+      - "9"
   - name: ha
     path: $basearch/HighAvailability/os/
     versions:
-      - "8.6"
+      - "8"
   - name: highavailability
     path: $basearch/HighAvailability/os/
     versions:
-      - "9.0"
+      - "9"
   - name: resilientstorage
     path: $basearch/ResilientStorage/os/
     arches:
