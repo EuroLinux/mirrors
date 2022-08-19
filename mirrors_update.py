@@ -149,10 +149,9 @@ def mirror_available(
         return mirror_info['name'], False
     for version in versions:
         for repo_info in repos:
-            repo_path = "dist/eurolinux/server/" + repo_info['path'].replace('$basearch', ARCHS[0])
+            repo_path = "dist/eurolinux/server/" + str(version) + repo_info['path'].replace('$basearch', ARCHS[0])
             check_url = os.path.join(
                 mirror_url,
-                str(version),
                 repo_path,
                 'repodata/repomd.xml',
             )
