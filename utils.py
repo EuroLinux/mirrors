@@ -477,10 +477,9 @@ async def mirror_available(
                     versions_arches=main_config.versions_arches,
                 ):
                     continue
-                repo_path = repo_data.path.replace('$basearch', arch)
+                repo_path = "dist/eurolinux/server/" + str(version) + '/' + repo_data.path.replace('$basearch', arch)
                 check_url = os.path.join(
                     mirror_url,
-                    str(version),
                     repo_path,
                     'repodata/repomd.xml',
                 )
