@@ -9,9 +9,7 @@ versions_arches:
     - aarch64
 versions:
   - "8"
-  - "8.6"
   - "9"
-  - "9.0"
 duplicated_versions:
   - "8"
   - "9"
