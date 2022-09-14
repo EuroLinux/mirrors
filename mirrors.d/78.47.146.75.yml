@@ -1,9 +1,9 @@
 ---
-name: http://65.109.1.131/
+name: http://78.47.146.75/
 address:
-  http: http://65.109.1.131/
+  http: http://78.47.146.75/
 geolocation:
-  country: Finland
+  country: Germany
 update_frequency: 3h
 sponsor: EuroLinux Sp. z o. o.
 sponsor_url: https://euro-linux.com
