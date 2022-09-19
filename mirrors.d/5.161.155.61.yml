@@ -1,0 +1,11 @@
+---
+name: http://5.161.155.61/
+address:
+  http: http://5.161.155.61/
+geolocation:
+  country: USA
+update_frequency: 3h
+sponsor: EuroLinux Sp. z o. o.
+sponsor_url: https://euro-linux.com
+email: support@euro-linux.com
+...
