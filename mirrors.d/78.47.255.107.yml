@@ -1,7 +1,7 @@
 ---
-name: http://78.47.146.75/
+name: http://78.47.255.107/
 address:
-  http: http://78.47.146.75/
+  http: http://78.47.255.107/
 geolocation:
   country: Germany
 update_frequency: 3h
