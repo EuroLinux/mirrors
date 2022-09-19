@@ -91,11 +91,11 @@ ARCHS = (
 
 # set User-Agent for python-requests
 HEADERS = {
-    'User-Agent': 'libdnf (AlmaLinux 8.3; generic; Linux.x86_64)'
+    'User-Agent': 'libdnf (EuroLinux 8.3; generic; Linux.x86_64)'
 }
 # the list of mirrors which should be always available
 WHITELIST_MIRRORS = (
-    'repo.almalinux.org',
+    'fbi2.cdn.euro-linux.com',
 )
 GEOPIP_DB = 'geoip_db.mmdb'
 NUMBER_OF_PROCESSES_FOR_MIRRORS_CHECK = 15
@@ -490,7 +490,7 @@ def generate_isos_list(
                     'a'
             ) as current_isos_file:
                 current_isos_file.write(
-                    '# AlmaLinux ISOs links  \n'
+                    '# EuroLinux ISOs links  \n'
                     'Here are you can find the list of '
                     'ISOs links for architecture/version'
                     f' `{arch}/{version}` for all of mirrors.  \n'
