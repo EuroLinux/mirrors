@@ -1,4 +1,4 @@
-# AlmaLinux ISOs links  
+# EuroLinux ISOs links  
 Here are you can find the list of available architectures and versions on the mirrors.  
 Also you can use a BitTorrent file for downloading ISOs. It should be faster than using direct downloading from the mirrors.  
 A .torrent file can be found from any mirror in ISOs folder.  
