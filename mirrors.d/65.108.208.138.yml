@@ -1,0 +1,11 @@
+---
+name: http://65.108.208.138/
+address:
+  http: http://65.108.208.138/
+geolocation:
+  country: Finland
+update_frequency: 3h
+sponsor: EuroLinux Sp. z o. o.
+sponsor_url: https://euro-linux.com
+email: support@euro-linux.com
+...
