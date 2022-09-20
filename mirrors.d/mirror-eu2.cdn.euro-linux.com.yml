@@ -1,9 +1,9 @@
 ---
-name: http://78.47.255.107/
+name: mirror-eu1.cdn.euro-linux.com
 address:
-  http: http://78.47.255.107/
+  http: http://mirror-eu1.cdn.euro-linux.com/
 geolocation:
-  country: Germany
+  country: Finland
 update_frequency: 3h
 sponsor: EuroLinux Sp. z o. o.
 sponsor_url: https://euro-linux.com

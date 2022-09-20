@@ -1,9 +1,9 @@
 ---
-name: http://65.108.208.138/
+name: mirror-us1.cdn.euro-linux.com
 address:
-  http: http://65.108.208.138/
+  http: http://mirror-us1.cdn.euro-linux.com/
 geolocation:
-  country: Finland
+  country: USA
 update_frequency: 3h
 sponsor: EuroLinux Sp. z o. o.
 sponsor_url: https://euro-linux.com
