@@ -1,9 +1,9 @@
 ---
-name: http://5.161.155.61/
+name: mirror-eu1.cdn.euro-linux.com
 address:
-  http: http://5.161.155.61/
+  http: http://mirror-eu1.cdn.euro-linux.com/
 geolocation:
-  country: USA
+  country: Germany
 update_frequency: 3h
 sponsor: EuroLinux Sp. z o. o.
 sponsor_url: https://euro-linux.com
