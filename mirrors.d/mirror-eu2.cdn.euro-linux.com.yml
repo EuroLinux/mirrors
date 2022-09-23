@@ -1,7 +1,7 @@
 ---
 name: mirror-eu2.cdn.euro-linux.com
 address:
-  http: http://mirror-eu2.cdn.euro-linux.com/
+  https: https://mirror-eu2.cdn.euro-linux.com/
 geolocation:
   country: Finland
 update_frequency: 3h
