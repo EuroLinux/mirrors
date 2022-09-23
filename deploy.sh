@@ -9,8 +9,8 @@ pushd docs/.vuepress/dist
 
 git init
 git add -A
-git commit -m 'deploy'
+git commit -m 'deploy test'
 
-git push -f git@github.com:EuroLinux/mirrors.git master:gh-pages
+#git push -f git@github.com:EuroLinux/mirrors.git master:gh-pages
 
 popd

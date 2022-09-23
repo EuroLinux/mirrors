@@ -1,3 +1,3 @@
-http://mirror-eu1.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
-http://mirror-eu2.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
-http://mirror-us1.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
+https://mirror-eu1.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
+https://mirror-eu2.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
+https://mirror-us1.cdn.euro-linux.com/dist/eurolinux/server/$releasever/$basearch/HighAvailability/os/
