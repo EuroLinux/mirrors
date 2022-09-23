@@ -1,6 +1,7 @@
 ---
 name: mirror-eu1.cdn.euro-linux.com
 address:
+  http: http://mirror-eu1.cdn.euro-linux.com/
   https: https://mirror-eu1.cdn.euro-linux.com/
 geolocation:
   country: Germany
