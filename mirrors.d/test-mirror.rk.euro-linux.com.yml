@@ -1,0 +1,12 @@
+---
+name: test-mirror.rk.euro-linux.com
+address:
+  http: http://test-mirror.rk.euro-linux.com/
+  https: https://test-mirror.rk.euro-linux.com/
+geolocation:
+  country: Germany
+update_frequency: 6h
+sponsor: EuroLinux Sp. z o. o.
+sponsor_url: https://euro-linux.com
+email: rk@euro-linux.com
+...
