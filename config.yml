@@ -3,24 +3,34 @@ allowed_outdate: 12h
 mirrorlist_dir: docs/.vuepress/public/mirrorlist
 mirrors_dir: mirrors.d
 mirrors_table: docs/internal/mirrors.md
-versions_arches:
-  "8":
-    - x86_64
-    - aarch64
+#versions_arches:
+#  "8":
+#    - x86_64
+#    - aarch64
+#  "9":
+#    - x86_64
+#    - aarch64
 versions:
   - "8"
   - "9"
 duplicated_versions:
-  - "8"
-  - "9"
+  - 8.10
+  - 9.4
 vault_versions:
   - "8.4"
   - "8.5"
-vault_mirror: https://vault.cdn.euro-linux.com/
+  - "8.6"
+  - "8.7"
+  - "8.8"
+  - "8.9"
+  - "9.0"
+  - "9.1"
+  - "9.2"
+  - "9.3"
+vault_mirror: https://vault.cdn.euro-linux.com/legacy/eurolinux/$releasever/
 arches:
   - x86_64
   - aarch64
-# one of them should be in a mirror's config
 required_protocols:
   - http
   - https
@@ -39,12 +49,12 @@ repos:
       - "9"
   - name: ha
     path: $basearch/HighAvailability/os/
-    versions:
-      - "8"
+    arches:
+      - x86_64
   - name: highavailability
     path: $basearch/HighAvailability/os/
-    versions:
-      - "9"
+    arches:
+      - x86_64
   - name: resilientstorage
     path: $basearch/ResilientStorage/os/
     arches:
