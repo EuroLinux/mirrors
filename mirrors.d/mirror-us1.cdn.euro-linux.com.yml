@@ -5,7 +5,7 @@ address:
   https: https://mirror-us1.cdn.euro-linux.com/
 geolocation:
   country: USA
-update_frequency: 1h
+update_frequency: 3h
 sponsor: EuroLinux Sp. z o. o.
 sponsor_url: https://euro-linux.com
 email: support@euro-linux.com
