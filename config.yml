@@ -11,12 +11,20 @@ mirrors_table: docs/internal/mirrors.md
 #    - x86_64
 #    - aarch64
 versions:
+  - "6.10"
+  - "7.9"
   - "8"
   - "9"
 duplicated_versions:
+  - 7.7
+  - 7.8
   - 8.10
   - 9.4
 vault_versions:
+  - "6.10"
+  - "7.7"
+  - "7.8"
+  - "7.9"
   - "8.4"
   - "8.5"
   - "8.6"
@@ -59,4 +67,18 @@ repos:
     path: $basearch/ResilientStorage/os/
     arches:
       - x86_64
+  - name: extras
+    path: $basearch/Extras/os/
+    arches:
+      - x86_64
+    versions:
+      - "6.10"
+    vault: true
+  - name: updates
+    path: $basearch/Updates/os/
+    arches:
+      - x86_64
+    versions:
+      - "7.9"
+    vault: true
 ...
