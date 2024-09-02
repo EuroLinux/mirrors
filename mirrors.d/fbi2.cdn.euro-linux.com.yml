@@ -1,8 +1,8 @@
 ---
-name: fbi.cdn.euro-linux.com
+name: fbi2.cdn.euro-linux.com
 address:
-  http: http://fbi.cdn.euro-linux.com/
-  https: https://fbi.cdn.euro-linux.com/
+  http: http://fbi2.cdn.euro-linux.com/
+  https: https://fbi2.cdn.euro-linux.com/
 geolocation:
   country: Germany
 update_frequency: 3h
